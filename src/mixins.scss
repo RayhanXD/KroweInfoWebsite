@@ -1,0 +1,37 @@
+@mixin title-xl {
+    font-family: 'Outfit', sans-serif;
+    font-size: 128px;
+    font-weight: 600;
+}
+
+@mixin title-md {
+    font-family: "Outfit", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+@mixin title-xs {
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@mixin paragraph-md {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+    @media screen and (max-width: 585px) {
+        font-size: 12px;
+    }
+}
+
+@mixin paragraph-lg {
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+
+    @media screen and (max-width: 585px) {
+        font-size: 16px;
+    }
+}
