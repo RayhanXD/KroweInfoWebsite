@@ -123,6 +123,12 @@ section {
         }
     }
 
+    @media screen and (max-width: 1080px) {
+        .title {
+            text-align: left;
+        }
+    }
+
     .grid-container {
         display: grid;
         grid-template-rows: 1fr;
